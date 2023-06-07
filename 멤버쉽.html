@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Membership 페이지</title>
+</head>
+<body>
+  <h1>Membership</h1>
+  <h4>2302570 이서정</h4>
+  <form>
+    <div>
+      <label for="name">이름:</label>
+      <input type="text" id="name" name="name" required>
+      <style>
+        #box {
+            display: inline-block;
+        }
+      </style>
+    </div>
+
+    <div>
+      <label for="photo">사진:</label>
+      <input type="file" id="photo" name="photo">
+    </div>
+
+    <div>
+      <label>성별:</label>
+      <input type="radio" id="female" name="gender" value="여" checked>
+      <label for="female">여</label>
+      <input type="radio" id="male" name="gender" value="남">
+      <label for="male">남</label>
+    </div>
+
+    <div>
+      <label for="dobGregorian">생년월일(양력):</label>
+      <input type="date" id="dobGregorian" name="dobGregorian">
+    </div>
+
+    <div>
+      <label for="dobLunar">생년월일(음력):</label>
+      <input type="date" id="dobLunar" name="dobLunar">
+    </div>
+
+    <div>
+      <label for="address">주소:</label>
+      <input type="text" id="address" name="address">
+    </div>
+
+    <div>
+      <label for="age">나이:</label>
+      <input type="number" id="age" name="age">
+    </div>
+
+    <div>
+      <label for="reason">가입 이유:</label>
+      <textarea id="reason" name="reason" rows="4" cols="50"></textarea>
+    </div>
+
+    <div>
+      <input type="submit" value="가입하기">
+    </div>
+  </form>
+  <style>
+    h5:hover { color:red;}
+  </style>
+  <h5>문제가 발생하면 1119ra@naver.com으로 문의주세요</h5>
+
+</body>
+</html>
